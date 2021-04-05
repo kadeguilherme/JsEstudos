@@ -1,12 +1,12 @@
 .login {
     display: flex;
-    margin-left: 86px;
+    margin-left: 80px;
 }
 
 p {
     font-size: 18px;
     color: #00000060;
-    margin-top: 28px;
+    margin-top: 20px;
     margin-bottom: 33px;
 }
 
@@ -18,13 +18,13 @@ p {
     color: #3751fe;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 #login-phrase h1 {
     height: 108px;
     width: 557px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-family: "Open Sans";
     font-size: 36;
 }
@@ -44,6 +44,7 @@ p {
     padding-left: 20px;
     outline-width: 2px;
     outline-color: #0c31f1;
+    
 }
 
 .login-input.email {
@@ -60,6 +61,7 @@ p {
     color: #0c31f1;
     font-size: 18px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .login-button.loginUp {
@@ -67,6 +69,27 @@ p {
     background-color: #3751fe;
     color: #ffffff;
 }
+
+.login-footer {
+    display: flex;
+    margin-top: 40px;
+    height: 22px;
+    align-items: center;
+
+}
+
+.login-footer  a {
+    padding-right: 70px;
+    color: #3751FE;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.login-footer  p {
+    padding-right: 70px;
+}
+
+
 
 .login-right {
     background-color: #a9a9a9;
