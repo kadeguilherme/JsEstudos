@@ -1,0 +1,16 @@
+
+.login{
+
+    display: flex;
+    
+}
+
+.login-left{
+    
+    flex: 1;
+}
+
+.login-right{
+    background-color:#A9A9A9 ;
+    flex: 1;
+}
