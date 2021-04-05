@@ -92,6 +92,17 @@ p {
 
 
 .login-right {
-    background-color: #a9a9a9;
     flex: 1;
+    background-color: #a9a9a9;
+    box-sizing: inherit;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+.login-right img {
+margin-left: 70px;
+    
 }

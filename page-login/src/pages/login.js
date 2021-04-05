@@ -1,5 +1,6 @@
 import React from 'react'
 import './login.css';
+import image from '../assets/message.svg';
 
 const Login = () => {
     return (
@@ -46,7 +47,7 @@ const Login = () => {
                     Sign Up
                 </button>
 
-                <div className = 'login-footer'>
+                <div className='login-footer'>
                     <p>Ou faça login com</p>
                     <a href=''>Facebook</a>
                     <a href=''>LinkedIn</a>
@@ -55,7 +56,8 @@ const Login = () => {
             </div>
 
             <div className='login-right'>
-                <h1>Imagem</h1>
+                <img src={image}  
+   height ='300px' />
             </div>
 
 
