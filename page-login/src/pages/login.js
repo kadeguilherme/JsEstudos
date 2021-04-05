@@ -18,7 +18,7 @@ const Login = () => {
                     Bem vindo de volta! Por favor acesse sua conta.
                 </p>
 
-                <div  >
+                <div>
                     <input className='login-input email'
                         type='email'
                         placeholder='Email Address'
@@ -28,6 +28,7 @@ const Login = () => {
                         type='text'
                         placeholder='Password'
                     />
+
                     <div className='login-ckekbox'>
                         <input
                             type='checkbox'
@@ -39,6 +40,15 @@ const Login = () => {
 
                 </div>
 
+                <div >
+                    <button className='login-button loginUp'>
+                        Login
+                    </button>
+
+                    <button className='login-button'>
+                        Sign Up
+                    </button>
+                </div>
             </div>
 
             <div className='login-right'>

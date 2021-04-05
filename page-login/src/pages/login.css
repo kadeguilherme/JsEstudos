@@ -10,7 +10,6 @@ p {
     margin-bottom: 33px;
 }
 
-
 .login-left {
     flex: 1;
 }
@@ -19,46 +18,55 @@ p {
     color: #3751fe;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 75px;
-  
+    margin-top: 55px;
 }
 
 #login-phrase h1 {
     height: 108px;
     width: 557px;
-    margin-top: 75px;
+    margin-top: 60px;
     font-family: "Open Sans";
     font-size: 36;
 }
 
-.login-ckekbox{
-   padding-top: 10px;
-
+.login-ckekbox {
+    padding-top: 10px;
 }
-.login-ckekbox label{
+.login-ckekbox label {
     padding-left: 10px;
     color: #00000061;
 }
 
-.login-input{
-
+.login-input {
     height: 74px;
     width: 554px;
-    border: 1px solid #C1BBBB;
+    border: 1px solid #c1bbbb;
     padding-left: 20px;
     outline-width: 2px;
-    outline-color: #0C31F1;
+    outline-color: #0c31f1;
 }
 
-.login-input.email{
-    border-left: 4px solid #0C31F1;
+.login-input.email {
+    border-left: 4px solid #0c31f1;
     border-bottom: transparent;
-    
 }
 
+.login-button {
+    width: 129px;
+    height: 54px;
+    margin-right: 33px;
+    margin-top: 10px;
+    border: 2px solid #3751fe;
+    color: #0c31f1;
+    font-size: 18px;
+    background-color: transparent;
+}
 
-
-
+.login-button.loginUp {
+    border: none;
+    background-color: #3751fe;
+    color: #ffffff;
+}
 
 .login-right {
     background-color: #a9a9a9;
