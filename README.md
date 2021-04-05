@@ -2,7 +2,10 @@
 
 <img align="right"  src = "https://github.com/kadeguilherme/JsEstudos/blob/master/page-login/src/assets/Print.png"> 
 
->Esse projeto consiste em colocar em pratica todos meus conhecimentos de design de interface e de codar
+>Esse projeto consiste em colocar em pratica todos meus conhecimentos de design de interface e de codar<br>
+><a href = 'https://www.figma.com/file/WYleujFeudJd0SfjjPsr54/Page-login?node-id=0%3A1'> 🎨 Clique aqui e olha o projeto no Figma </a>
+       
+  
 
 
 ##  Feito por ❤
