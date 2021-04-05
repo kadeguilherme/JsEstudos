@@ -15,8 +15,23 @@ const Login = () => {
                 </div>
 
                 <p>
-                Bem vindo de volta! Por favor acesse sua conta.
+                    Bem vindo de volta! Por favor acesse sua conta.
                 </p>
+                
+                <div>
+                    <input 
+                    type='email'
+                    placeholder = 'Email Address'
+                    />
+                </div>
+                
+                <div >
+                    <input 
+                    type='text'
+                    placeholder = 'Password'
+                    />
+                </div>
+
             </div>
 
             <div className='login-right'>
