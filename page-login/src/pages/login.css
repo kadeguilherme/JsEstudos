@@ -1,32 +1,64 @@
+.login {
+    display: flex;
+    margin-left: 86px;
+}
+
 p {
     font-size: 18px;
     color: #00000060;
     margin-top: 28px;
-    margin-left: 86px;
+    margin-bottom: 33px;
 }
 
-.login {
-    display: flex;
-}
 
 .login-left {
     flex: 1;
 }
+
 .login-left h1 {
     color: #3751fe;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 86px;
-    margin-left: 86px;
+    margin-top: 75px;
+  
 }
 
 #login-phrase h1 {
     height: 108px;
     width: 557px;
-    margin-top: 109px;
+    margin-top: 75px;
     font-family: "Open Sans";
     font-size: 36;
 }
+
+.login-ckekbox{
+   padding-top: 10px;
+
+}
+.login-ckekbox label{
+    padding-left: 10px;
+    color: #00000061;
+}
+
+.login-input{
+
+    height: 74px;
+    width: 554px;
+    border: 1px solid #C1BBBB;
+    padding-left: 20px;
+    outline-width: 2px;
+    outline-color: #0C31F1;
+}
+
+.login-input.email{
+    border-left: 4px solid #0C31F1;
+    border-bottom: transparent;
+    
+}
+
+
+
+
 
 .login-right {
     background-color: #a9a9a9;

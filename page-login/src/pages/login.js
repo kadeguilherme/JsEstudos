@@ -17,19 +17,26 @@ const Login = () => {
                 <p>
                     Bem vindo de volta! Por favor acesse sua conta.
                 </p>
-                
-                <div>
-                    <input 
-                    type='email'
-                    placeholder = 'Email Address'
+
+                <div  >
+                    <input className='login-input email'
+                        type='email'
+                        placeholder='Email Address'
                     />
-                </div>
-                
-                <div >
-                    <input 
-                    type='text'
-                    placeholder = 'Password'
+
+                    <input className='login-input'
+                        type='text'
+                        placeholder='Password'
                     />
+                    <div className='login-ckekbox'>
+                        <input
+                            type='checkbox'
+                        ></input>
+                        <label>
+                            Remember Me
+                    </label>
+                    </div>
+
                 </div>
 
             </div>
