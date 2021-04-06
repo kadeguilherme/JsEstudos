@@ -8,7 +8,7 @@
   
 
 
-##  Feito por ❤
+##  Feito com ❤
   <table>
   <td align = 'center'>
       <a href = '#'>
